@@ -19,7 +19,7 @@ The payload of that request will look similar to this:
 }
 ```
 
-Our app will need to respond to this request by echoing back the provided provided by Slack. We'll need a server object, in this case we're
+Our app will need to respond to this request by echoing back the challenge string provided by Slack. We'll need a server object, in this case we're
 using Sinatra. Inside of the server class (API), we need a listener for POST requests to our events endpoint, `/events`. We'll need to extract
 the `url_verification` challenge token from the request payload. All of these steps together form a complete listener for the `url_verification`
 event:
