@@ -34,7 +34,7 @@ Using the publicly accessible URL provided by ngrok, something like `https://h74
 ### Installing The App
 Once all of our app's functionality is in place, we can go ahead and install the app on our team. :tada:
 
-Visit your app's [/auth/start](http://0.0.0.0:9292) page and click the "Add to Slack" button to get begin the OAuth flow. When you
+Visit your app's [/auth/start](http://0.0.0.0:9292) page and click the "Add to Slack" button to begin the OAuth flow. When you
 click the button, you'll be directed to Slack's auth request page, where a user specifies a team and agrees to grant access for
 the items specified in the app's desired scope. In this demo, we're only using the `bot` scope.
 
