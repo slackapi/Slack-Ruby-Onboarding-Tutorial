@@ -42,7 +42,7 @@ class Auth < Sinatra::Base
   # This is the HTML markup for our "Add to Slack" button.
   # Note that we pass the `client_id`, `scope` and "redirect_uri" parameters specific to our application's configs.
   add_to_slack_button = %(
-    <a href=\"https://slack.com/oauth/authorize?scope=#{BOT_SCOPE}&client_id=#{SLACK_CONFIG[:slack_client_id]}&redirect_uri=#{SLACK_CONFIG[:redirect_uri]}\">
+    <a href=\"https://slack.com/oauth/authorize?scope=#{BOT_SCOPE}&client_id=#{SLACK_CONFIG[:slack_client_id]}&redirect_uri=#{SLACK_CONFIG[:slack_redirect_uri]}\">
       <img alt=\"Add to Slack\" height=\"40\" width=\"139\" src=\"https://platform.slack-edge.com/img/add_to_slack.png\"/>
     </a>
   )
