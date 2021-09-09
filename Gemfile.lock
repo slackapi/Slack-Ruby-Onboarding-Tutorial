@@ -15,7 +15,7 @@ GEM
     hashie (3.4.4)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
-    json (2.0.2)
+    json (2.3.1)
     minitest (5.14.1)
     multipart-post (2.0.0)
     rack (1.6.12)
