@@ -1,3 +1,7 @@
+# ARCHIVED
+
+This piece of sample code has been archived and is no longer maintained. The approaches used may no longer be relevant, or even work correctly. For more up to date samples, check out some of the other repositories on https://github.com/slackapi
+
 ### Building an onboarding bot in Ruby using Slack's [Events API](https://api.slack.com/events-api)
 This example demonstrates what it takes to build a Slack bot in Ruby. We'll cover the steps
 required to create and configure your app, set up event subscriptions, and add event handlers.
